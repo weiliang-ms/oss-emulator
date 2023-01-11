@@ -24,7 +24,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          context: ./build
-          file: ./build/Dockerfile
+          context: ./
+          file: Dockerfile
           push: true
           tags: xzxwl/oss-emulator
