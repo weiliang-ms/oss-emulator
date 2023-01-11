@@ -75,6 +75,8 @@ UploadPartCopy,AbortMultipartUpload,ListMultipartUpload,ListParts
 
 - 运行。进入 *oss-emulator* 目录, 执行命令 `ruby bin/emulator -r store -p 8080`。
 
+### docker
+
 ## 使用示例
 
 ### ossutil
